@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed=0;
+            <string>///Setup das variaveis
+image_speed=0;
 image_index=0;
 std_image_speed = 0.15;
 direction = 5;
@@ -109,7 +110,8 @@ if keyboard_check_pressed(vk_space)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
+            <string>///Que nome dou a isto?
+image_speed = 0;
 image_index = 0;
 </string>
           </argument>
