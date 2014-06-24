@@ -53,7 +53,7 @@ if(obj_player.direction == 7)
 {direction = 135;}
 
 
-speed = 2;
+speed = 4;
 
 </string>
           </argument>

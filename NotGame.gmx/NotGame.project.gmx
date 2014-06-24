@@ -26,7 +26,7 @@
     <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_play</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
