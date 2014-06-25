@@ -29,31 +29,30 @@
 image_index = obj_player.direction
 
 if(obj_player.direction == 0)
-{direction = 90;}
+{phy_speed_y = -4;}
 
 if(obj_player.direction == 1)
-{direction = 45;}
+{phy_speed_y = -3; phy_speed_x = 3}
 
 if(obj_player.direction == 2)
-{direction = 0;}
+{phy_speed_x = 4;}
 
 if(obj_player.direction == 3)
-{direction = 315;}
+{phy_speed_y = 3; phy_speed_x = 3}
 
 if(obj_player.direction == 4)
-{direction = 270;}
+{phy_speed_y = 4;}
 
 if(obj_player.direction == 5)
-{direction = 225;}
+{phy_speed_y = 3; phy_speed_x = -3}
 
 if(obj_player.direction == 6)
-{direction = 180;}
+{phy_speed_x = -4;}
 
 if(obj_player.direction == 7)
-{direction = 135;}
+{phy_speed_y = -3; phy_speed_x = -3}
 
 
-speed = 4;
 
 </string>
           </argument>
@@ -84,7 +83,7 @@ speed = 4;
       </action>
     </event>
   </events>
-  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
   <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
@@ -97,6 +96,6 @@ speed = 4;
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>16,16</point>
-    <point>16,16</point>
+    <point>14,16</point>
   </PhysicsShapePoints>
 </object>
