@@ -20,9 +20,18 @@
       <sprites name="Projectiles">
         <sprite>sprites\spr_bullet</sprite>
       </sprites>
+      <sprites name="mobs">
+        <sprite>sprites\spr_zombie</sprite>
+      </sprites>
     </sprites>
     <sprites name="Animations">
       <sprite>sprites\spr_shoot</sprite>
+    </sprites>
+    <sprites name="System">
+      <sprites name="Collisions">
+        <sprite>sprites\spr_collision</sprite>
+        <sprite>sprites\spr_collisions_off</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -31,12 +40,19 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_bullet</object>
+    <objects name="Entities">
+      <object>objects\obj_player</object>
+      <object>objects\obj_bullet</object>
+      <object>objects\obj_zombie</object>
+    </objects>
+    <objects name="System">
+      <object>objects\obj_GameState</object>
+      <object>objects\obj_Collision</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_play</room>
     <room>rooms\rm_TitleScreen</room>
+    <room>rooms\rm_play</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
