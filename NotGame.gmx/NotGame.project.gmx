@@ -22,6 +22,7 @@
       </sprites>
       <sprites name="mobs">
         <sprite>sprites\spr_zombie</sprite>
+        <sprite>sprites\spr_zombie_die</sprite>
       </sprites>
     </sprites>
     <sprites name="Animations">
@@ -32,6 +33,9 @@
         <sprite>sprites\spr_collision</sprite>
         <sprite>sprites\spr_collisions_off</sprite>
       </sprites>
+    </sprites>
+    <sprites name="Walls">
+      <sprite>sprites\spr_Wall</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -48,6 +52,9 @@
     <objects name="System">
       <object>objects\obj_GameState</object>
       <object>objects\obj_Collision</object>
+    </objects>
+    <objects name="Walls">
+      <object>objects\obj_wall</object>
     </objects>
   </objects>
   <rooms name="rooms">
